@@ -113,9 +113,14 @@ img {
 }
 
 .mail-icon {
-  display: inline-flex;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.phone-icon {
+  margin-right: 10px;
+  fill: currentColor;
+  padding: 0;
 }
 
 .nav-link,
@@ -221,6 +226,20 @@ img {
 .benefits-list {
   display: flex;
   gap: 30px;
+}
+
+.benefits-box {
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-secondary-light);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.benefits-icons {
 }
 
 .section-title {
