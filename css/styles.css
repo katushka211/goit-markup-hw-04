@@ -385,6 +385,13 @@ img {
   padding-bottom: 60px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-address {
+  margin-right: 70px;
+}
 .footer-address {
   display: inline-block;
   line-height: 1.71;
@@ -405,6 +412,35 @@ img {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+
+.join-title {
+  color: var(--primary-light-color);
+  margin-bottom: 20px;
+}
+.join-list {
+  display: flex;
+  gap: 10px;
+}
+.join-item {
+  width: 44px;
+  height: 44px;
+}
+
+.join-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  fill: var(--primary-light-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.join-link:hover,
+.join-link:focus {
+  background-color: var(--accent-color);
 }
 
 /*----------------------PORTFOLIO------------------------------*/
@@ -441,6 +477,8 @@ img {
 .button-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--primary-light-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-list {
@@ -457,10 +495,19 @@ img {
   flex-basis: calc((100% - 60px) / 3);
 }
 
+.cards-link {
+  display: block;
+}
+.cards-link:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .works-box {
   padding: 20px 24px;
-  border: 1px solid var(--border-card-color);
+  border: 1px solid rgba(238, 238, 238, 1);
   border-top: none;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .works-title {
